@@ -22,7 +22,7 @@ jobs:
       - name: Installer Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '9.5.1'
+          gradle-version: '9.7.1'
 
       - name: Compiler le mod
         run: gradle build --stacktrace
