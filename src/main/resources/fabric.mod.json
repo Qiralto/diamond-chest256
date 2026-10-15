@@ -1,0 +1,11 @@
+{
+ "schemaVersion":1,
+ "id":"coffrediamant256",
+ "version":"${version}",
+ "name":"Diamond Chest 256",
+ "description":"A 256-slot diamond chest with paged vanilla inventory UI.",
+ "environment":"*",
+ "entrypoints":{"main":["fr.coffrediamant.CoffreDiamantMod"]},
+ "depends":{"fabricloader":">=0.19.5","minecraft":"26.3","java":">=25","fabric-api":"*"},
+ "suggests":{"toms_storage":"*"}
+}
